@@ -1,0 +1,32 @@
+body{
+    box-sizing: border-box ;
+    margin-right: 100px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background: rgb(117, 62, 94);
+    width: 100vw;
+    height: 100vh;
+}
+
+main{
+    transition: all 0.5s;
+    -webkit-text-stroke: 4px #d6f4f4;
+    font-variation-settings: "wght" 900, "ital" 1;
+    font-size: 4rem;
+    align-items: center;
+    color: transparent;
+    font-family: "Meta", sans-serif;
+    text-shadow: 10px 10px 0px #07bccc,
+    15px 15px 0px red,
+    20px 20px 0px rgb(161, 57, 74),
+    25px 25px 0px rgb(182, 79, 182),
+    45px 45px 10px rgb(114, 47, 114);
+    cursor: pointer;
+}
+
+main:hover{
+    font-variation-settings: "wght" 100, "ital" 0;
+    text-shadow: none;
+}
